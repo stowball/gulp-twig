@@ -1,7 +1,7 @@
 {
   "name": "gulp-twig-up-to-date",
   "description": "Twig.js plugin for gulp.js (gulpjs.com) that's kept up to date",
-  "version": "0.6.0",
+  "version": "0.6.1",
   "homepage": "http://github.com/stowball/gulp-twig",
   "repository": {
     "type": "git",

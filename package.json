@@ -1,19 +1,23 @@
 {
-  "name": "gulp-twig",
-  "description": "Twig.js plugin for gulp.js (gulpjs.com)",
+  "name": "gulp-twig-up-to-date",
+  "description": "Twig.js plugin for gulp.js (gulpjs.com) that's kept up to date",
   "version": "0.5.0",
-  "homepage": "http://github.com/zimmen/gulp-twig",
+  "homepage": "http://github.com/stowball/gulp-twig",
   "repository": {
     "type": "git",
-    "url": "http://github.com/zimmen/gulp-twig.git"
+    "url": "http://github.com/stowball/gulp-twig.git"
   },
-  "author": "Simon de Turck <simon@zimmen.com> (http://www.zimmen.com)",
+  "author": {
+    "name": "Matt Stow",
+    "email": "matt@mattstow.com",
+    "original": "Simon de Turck <simon@zimmen.com> (http://www.zimmen.com)"
+  },
   "main": "./index.js",
   "dependencies": {
-    "gulp-util": "^2.2.14",
+    "gulp-util": "^3.0.7",
     "map-stream": "^0.1.0",
     "replace-ext": "0.0.1",
-    "twig": "0.8.6"
+    "twig": "~0.9.5"
   },
   "devDependencies": {
     "mocha": "*",
@@ -35,7 +39,7 @@
   "licenses": [
     {
       "type": "MIT",
-      "url": "http://github.com/zimmen/gulp-twig/raw/master/LICENSE"
+      "url": "http://github.com/stowball/gulp-twig/raw/master/LICENSE"
     }
   ]
 }
